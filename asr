@@ -1,0 +1,43 @@
+5.1 o que é o shell?
+é a interface do usuario para se comunicar com o kernel e tambem um interpretador de instruções
+
+5.2 quais sao os principais tipos de shell?
+sh, bash, ksh, csh
+
+5.3 qual é o shell original do linux?
+bourne shell (sh)
+
+5.4 qual é o shell que a maioria das distribuições linux vem por default?
+bourne-again shell (bash)
+
+5.5 qual é o foco do cshell?
+trazer recursos para a linguagem c
+
+5.6 como saber qual shell que estou usando?
+echo $0
+
+5.7 o que faz o comando tail /etc/passwd
+mostra na ultima linha qual shell que estou usando
+
+6.1 o que é cd do linux?
+change directory
+
+6.2 como voltar pro diretorio anterior de uma forma nao convencional?
+cd -
+
+6.3 como voltar ao home do diretorio com o cd
+cd  and cd ~
+
+6.4 como listar do mais velho para o mais novo?
+ls -ltr
+
+6.5 como listar um diretorio por linha?
+ls -1
+
+6.6 o que é o ps?
+lista os processos em execução
+
+6.7 como listar os seus processos na sua sessão atual?
+ps
+
+6.8
