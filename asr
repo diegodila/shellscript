@@ -40,4 +40,27 @@ lista os processos em execução
 6.7 como listar os seus processos na sua sessão atual?
 ps
 
-6.8
+6.8 como listar os processos com o nome, pid  e consumo de cpu dos processos
+ps axu
+
+6.7 como atualizar um horario de um arquivo que ja existe?
+touch arquivo.txt
+
+6.8 como criar um arquivo em branco?
+touch arq.txt
+
+6.9 o que o comando echo faz?
+mostrar em display algo que voce escreveu
+
+6.10 como mostrar no display sem quebrar a linha?
+echo -n "aoidsj"
+
+6.11 como fazer o echo aceitar parametros especiais?
+
+6.12 como criar um diretorio?
+mkdir 
+
+6.13 como criar uma arvore de diretorio?
+mkdir -p diretorio2/die
+
+6.14
