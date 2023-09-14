@@ -63,4 +63,13 @@ mkdir
 6.13 como criar uma arvore de diretorio?
 mkdir -p diretorio2/die
 
-6.14
+6.14 como funciona o rmdir?
+remove o diretorio se ele estiver vazio
+
+6.15 como funciona a flag f no rm 
+ele faz force, para nao aparecer nenhuma msg de erro
+
+6.16 o que faz o comando sleep?
+conta um tempo
+
+6.17
