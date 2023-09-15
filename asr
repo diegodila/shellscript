@@ -72,4 +72,25 @@ ele faz force, para nao aparecer nenhuma msg de erro
 6.16 o que faz o comando sleep?
 conta um tempo
 
-6.17
+7.1 como mostrar o conteudo de um arquivo?
+cat arquivo.txt
+
+7.2 como mostrar o conteudo com o numeros das linhas que nao estao em branco?
+cat -b arquivo.txt
+
+7.3 como mostrar o conteudo com o numeros das linhas que estao em branco?
+cat -n arquiv.txt
+
+7.4 como mostrar o conteudo com os caracteres especiais?
+cat -A alunos.txt
+
+7.5 como ler o conteudo de um arquivo do final para o começo?
+tac arquivo.txt
+
+7.6 como mostrar as ultimas 10 linhas do arquivo?
+tail arquivo.txt
+
+7.7 como mostrar as ultimas 15 linhas do arquivo?
+tail -n15 arquivo.txt
+
+7.8
