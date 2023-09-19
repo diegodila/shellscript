@@ -139,6 +139,18 @@ uniq arquivo.txt
 7.22 como mostrar palavras duplicadas que nao estao em sequencia uma vez so?
 sort arquivo.txt | uniq
 
+7.23 como mostrar linhas que sao unicas, que nao repetem?
+sort arquivo.txt | uniq -u
+
+7.24 como contar as repeticoes de palavras de um arquivo
+sort arquivo.txt | uniq -c 
+
+7.25 como mostrar somente as palavras que repetem no arquivo?
+sort arquivo.txt | uniq -d
+
+7.26 como contar quantas vezes aparece uma palavra e ter um output de contagem ordenado
+sort arquivo.txt | uniq -c | sort
+
 8.1 o que faz o comando whatis?
 diz o que faz cada comando
 
@@ -154,16 +166,70 @@ cat arquivo.txt | tr a-z A-z
 8.5 como substituir todos os caracteres de aei por AEI
 cat arquivo.txt | tr aei AEI
 
-7.23 como mostrar linhas que sao unicas, que nao repetem?
-sort arquivo.txt | uniq -u
+8.6 como deletar caracteres com o tr?
+cat arquivo.txt | tr -d aei
 
-7.24 como contar as repeticoes de palavras de um arquivo
-sort arquivo.txt | uniq -c 
+8.7 como comprimir varios caracteres em um só 
+cat arquivo.txt | tr -s '.'
 
-7.25 como mostrar somente as palavras que repetem no arquivo?
-sort arquivo.txt | uniq -d
+8.8 o que o comando cut faz
+corta pedaços de uma string
 
-7.26 como contar quantas vezes aparece uma palavra e ter um output de contagem ordenado
-sort arquivo.txt | uniq -c | sort
+8.9 como cortar o caracter de um arquivo do 1 ao 5
+cat arquivo.txt | cut -c1-5
 
-7.27
+8.10 como cortar o caracter de um arquivo do 5 pra frente
+cat arquivo.txt | cut -c5-
+
+8.11 como cortar o caracter de um arquivo do 5 pra tras
+cat arquivo.txt | cut -c-5
+
+8.12 como cortar o caracter de um arquivo do 1,2 e a partir do 10 
+cat arquivo.txt | cut -c1,2,10-
+
+8.13 como cortar apenas o campo 1
+cat arquivo.txt | cut -f1
+
+8.14 como cortar apenas o campo 1 com a definição de espaco
+cat arquivo.txt | cut -d" " -f1
+
+8.15 como cortar o campo 1 e 3 com a definição de espaco
+cat arquivo.txt | cut -d" " -f1,3
+
+8.16 como comparar dois arquivos?
+diff arquivo.txt asid.txt
+
+8.17 como comparar dois arquivos desconsiderando os espaços em branco?
+diff -w alunos.txt alunos3.txt 
+
+8.18 como comparar diretorios?
+diff -r diretorio1 diretorio2
+
+9.1 para que serve o comando grep?
+para procurar um conteudo dentro de uma string de texto ou uma saida de texto
+
+9.2 como procurar pela palavra composta 'unix is' usando o comando grep utilizando expressoes regulares
+egrep '\sunix\sis' srel.txt
+
+9.3 como procurar pela palavra composta 'unix is' usando o comando grep sem utilizar expressoes regulares
+grep  'unix is' srel.txt
+
+9.4 como procurar pela palavra BOLA
+utilizando o comando grep tirando o case sensitive
+grep -i 'BOLA' arquivo.txt
+
+9.5 tirando o case sensitive do grep o que pode acontecer com script?
+deixa ele mais lento ou pesado por conta dos testes maisculos e minusculos
+
+9.6 como contar quantas vezes voce encontrou aquela palavra?
+grep -c bola arquivo.txt
+
+9.7 como excluir alguma coisa do texto quando estamos pesquisando por uma palavra
+grep -v bola arquivo.txt
+
+9.8 como procurar um conteudo de texto dentro de diretorios
+grep -r ana arquivo.txt
+
+9.9 como procurar um conteudo dentro dos diretorios só mostrando o arquivo sem o retorno
+grep -rl bola arquivo.txt
+ 
