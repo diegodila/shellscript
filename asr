@@ -31,6 +31,9 @@ cd  and cd ~
 6.4 como listar arquivos do mais velho para o mais novo?
 ls -ltr
 
+6.4 como listar arquivos do mais novo para o mais velho?
+ls -lt
+
 6.5 como listar um diretorio por linha?
 ls -1
 
@@ -68,7 +71,7 @@ mkdir -p diretorio2/die
 remove o diretorio se ele estiver vazio
 
 6.15 como funciona a flag f no rm 
-ele faz force, para nao aparecer nenhuma msg de erro
+ele faz um force, para nao aparecer nenhuma msg de erro
 
 6.16 o que faz o comando sleep?
 conta um tempo
@@ -85,7 +88,7 @@ cat -n arquiv.txt
 7.4 como mostrar o conteudo com os caracteres especiais?
 cat -A alunos.txt
 
-7.5 como ler o conteudo de um arquivo do final para o começo?
+7.5 como ler o conteudo de um arquivo do final da linha para o começo?
 tac arquivo.txt
 
 7.6 como mostrar as ultimas 10 linhas do arquivo?
@@ -104,10 +107,10 @@ head -c10 arquivo.txt
 wc arquivo.txt 
 
 7.11 como mostrar apenas o numero de linhas de um arquivo?
-wc -l arquivos.txt
+wc -l arquivo.txt
 
 7.12 como mostrar apenas o numero de palavras de um arquivo.txt
-wc -w arquivos.txt
+wc -w arquivo.txt
 
 7.13 como mostrar apenas o numero de palavras para todos os arquivos que comecem com as letrar arq
 wc -w arq*
@@ -143,7 +146,7 @@ sort arquivo.txt | uniq
 sort arquivo.txt | uniq -u
 
 7.24 como contar as repeticoes de palavras de um arquivo
-sort arquivo.txt | uniq -c 
+sort arquivo.txt | uniq -c
 
 7.25 como mostrar somente as palavras que repetem no arquivo?
 sort arquivo.txt | uniq -d
@@ -157,8 +160,8 @@ diz o que faz cada comando
 8.2 o que faz o comando tr?
 muda ou traduz ou deleta caracter de umas string
 
-8.3 como trocar a letra a pela letra e de um arquivo?
-cat alunos.txt | tr a e
+8.3 como trocar a letra 'a' pela letra 'e' de um arquivo?
+cat arquivo.txt | tr a e
 
 8.4 como substituir todos os caracteres de a-z por A-z
 cat arquivo.txt | tr a-z A-z
