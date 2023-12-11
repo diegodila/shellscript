@@ -19,6 +19,9 @@
 5.7 o que faz o comando tail /etc/passwd?
 
 
+5.8 como mostrar as variaveis de ambiente?
+
+
 6.1 o que é cd do linux?
 
 

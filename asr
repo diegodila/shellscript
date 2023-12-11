@@ -19,6 +19,9 @@ echo $0
 5.7 o que faz o comando tail /etc/passwd
 mostra na ultima linha qual shell que estou usando
 
+5.8 como mostrar as variaveis de ambiente?
+printenv
+
 6.1 o que é cd do linux?
 change directory
 
