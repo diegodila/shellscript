@@ -236,4 +236,5 @@
 
 9.9 como procurar um conteudo dentro dos diretorios só mostrando o arquivo sem o retorno?
 
- 
+10.1 how to discover open ports in linux?
+nmap localhost
