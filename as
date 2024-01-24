@@ -237,4 +237,12 @@
 9.9 como procurar um conteudo dentro dos diretorios só mostrando o arquivo sem o retorno?
 
 10.1 how to discover open ports in linux?
-nmap localhost
+
+
+10.2 how to find out the service and its version that is listening on the linux port
+
+
+10.3 why use ssh instead teamview?
+
+
+10.4 how to create a virtual terminal?
