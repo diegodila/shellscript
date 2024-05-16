@@ -250,3 +250,6 @@ ssh is faster than teamview
 
 10.4 how to create a virtual terminal?
 screen -S [nome-do-terminal]
+
+10.5 how to list available virtual terminals?
+screen -ls
